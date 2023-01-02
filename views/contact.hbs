@@ -1,0 +1,50 @@
+{{>header}}
+<title>MySite | Contact Us </title>
+
+<body>
+
+    {{>navbar}}
+
+    <div class="container-fluid mt-2">
+        <div class="row">
+            <div class="col-md-6 col-sm-12 col-12">
+                <div class="gbackground text-light text-center p-3  mt-2">
+                    ashfaqakhtar@live.com
+                </div>
+                <div class="gbackground text-light text-center p-3 mt-2">
+                    9122345358
+                </div>
+                <div class="gbackground text-light text-center p-3 mt-2">
+                    Challera, noida sector 44, UP, India
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-12 fmbackground">
+                <h5 class="fmbackground text-danger text-center mt-2">Contact Us</h5>
+                <form class="cap" action="/contact" method="post">
+                    <div class="mt-2">
+                        <label for="name" class="form-label">Enter your Name </label>
+                        <input type="text" class="form-control" name="name" placeholder="Enter your email">
+                    </div>
+                    <div class="mt-2">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" name="Email" placeholder="Enter your email">
+                    </div>
+                    <div class="mt-2">
+                        <label for="email" class="form-label">Phone Number</label>
+                        <input type="number" class="form-control" name="number" placeholder="Enter your phone Number">
+                    </div>
+                    <div class="mt-2">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="subject" class="form-control" name="Subject" placeholder="Enter your Subject">
+                    </div>
+                    <div class="mt-2">
+                        <label for="email" class="form-label">Message</label>
+                        <textarea name="Message" rows="5" class="form-control"></textarea>
+                    </div>
+                    <button type="submit" class="btn background text-light w-100">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    {{>footer}}

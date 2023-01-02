@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.background{
+    background-color: rgb(199, 24, 243);
+}
+.fbackground{
+    background-color: black;
+}
+.gbackground{
+    background-color: rgb(2, 23, 56);
+}
+.fmbackground{
+    background-color: rgb(123, 223, 10);
+    color: black;
+}
+.cap{
+    font-size: 18px;
+}
+body, html {
+    height: 100%;
+    /* overflow: hidden; */
+    padding-top: 30px;
+}
+
+.my-own-style {
+    margin-left: 37px;
+    margin-top: 37px;
+}
+
+/* .scroll {
+    overflow: auto;
+    height: 80%;
+    padding: 0;
+    margin-left: 37px;
+} */
